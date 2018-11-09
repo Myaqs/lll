@@ -10,7 +10,8 @@ export default new Router({
       redirect: '/login'
     },
     {
-      path: '/login', component: login
+      path: '/login',
+      component: login
     }
   ]
 })
